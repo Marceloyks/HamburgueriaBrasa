@@ -153,6 +153,8 @@ PERGUNTAS = [
    "visual": {"tipo": "tabela"},
 
    "conceitos": ["INNER JOIN", "BETWEEN"],
+   "dica": "",
+   "moeda": [],
   },
    {
         "numero": 7,
