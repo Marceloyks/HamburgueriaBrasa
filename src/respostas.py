@@ -76,11 +76,11 @@ ORDER BY Preco DESC;
 
 Q3 = """
 
-Select Status, COUNT(*) AS TotalPedidos From Pedidos
+Select Status, COUNT(*) AS QuantidadePedidos From Pedidos
 Where Status IN ('Entregue', 'Cancelado')
 Group by Status;
 
-"""
+""" 
 
 
 
